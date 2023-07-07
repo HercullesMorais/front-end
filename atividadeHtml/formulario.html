@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastra-se</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css\style.css"
+    />
+  
+  </head>
+  <body class="formulario">
+
+      
+      <div class="container-formu">
+    <img class="logo-formu" src="image\logo nova.png" alt="">
+      <h2>Cadastra-se</h2>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            placeholder="Digite o nome"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="idade">Idade:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="idade"
+            placeholder="Digite a idade"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Digite o e-mail"
+            required
+           
+}
+          />
+        </div>
+        <div class="form-group">
+          <label for="cpf">CPF:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cpf"
+            placeholder="Digite o CPF"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="sexo">Sexo:</label>
+          <select class="form-control" id="sexo" required>
+            <option value="" selected disabled>Selecione o sexo</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+        <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Tenho 13 anos de idade ou mais e aceito os termos do Acordo de Assinatura do Steam e da Política de Privacidade da Valve.
+            </label>
+          </div>
+        <button onclick="newPopup()" type="submit" class="btn btn-danger">ENVIAR</button>
+        <script>
+          function newPopup(){
+            alert("Erro de servidor, estamos trabalhando para resolver!");
+          }
+        </script>
+      </form>
+    </div>
+  </body>
+</html>

@@ -75,3 +75,17 @@
 .colaboradores .cards img{
     width: 80px;
 }
+
+.maps iframe{
+    margin: auto;
+    display: block;
+}
+
+footer{
+    padding: 20px 0;
+    margin: 10px 0 5px 0;
+    margin-bottom: 10px;
+    background-color: #CCC;
+    text-align: center;
+}
+

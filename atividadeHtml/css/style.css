@@ -1,0 +1,199 @@
+.primeiro-container {
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  width: 100%;
+}
+
+.image-back {
+  position: relative;
+  width: 100%;
+}
+.logo-tv {
+  font-size: 100px;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  width: 20%;
+  color: red;
+}
+.logo-flix {
+  font-size: 100px;
+  top: 150px;
+  left: 150px;
+  position: absolute;
+  width: 20%;
+  color: red;
+}
+
+.titulo {
+  font-size: 25px;
+  top: 400px;
+  left: 50px;
+  position: absolute;
+  color: white;
+}
+
+.sobretitulo {
+  font-size: 32px;
+  top: 450px;
+  left: 250px;
+  position: absolute;
+  color: white;
+}
+
+.primeiro-container a {
+  font-size: 20px;
+  top: 522px;
+  left: 490px;
+  width: 190px;
+  position: absolute;
+  color: white;
+}
+
+.primeiro-container input{
+  top: 520px;
+  font-size: 35px;
+  left: 50px;
+  width: 415px;
+  height: 45px;
+
+  position: absolute;
+  color: rgb(160, 33, 33);
+  width: 415px;
+  height: 40  px;
+}
+
+.filmes{
+  text-align: center;
+}
+
+.cards {
+  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 200px 0;
+  left: 25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+ 
+
+}
+.card h2{
+  font-size: 25 px;
+  width: 100%;
+}
+
+.card{
+  background-color: black;
+  padding: 0 1px;
+
+}
+.card img{
+  width: 200px;
+}
+
+
+
+.segundo-container .footer{
+  background: rgb(0, 0, 0);
+  width: 100%;
+  position: relative;
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  
+}
+
+.footer a{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.formulario{
+    background-color: rgb(20, 20, 20);
+}
+
+
+.container-formu{
+    top: 10px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    color: white;
+    
+}
+.container-formu h2{
+    width: 40%;
+    display: block;
+    margin: auto;
+    
+}
+
+.btn-danger{
+  top: 10px;
+  width: 20%;
+}
+
+
+
+
+.quemsomos {
+  background-color: black;
+  
+}
+.quemsomos h1{
+  text-align: center;
+  justify-content: space-around;
+  position: relative;
+  color: white;
+  padding: 80px 0;
+}
+
+.quemsomos p{
+  color: white;
+  text-align: center;
+}
+
+
+.faleconosco{
+  background-color: black;
+}
+
+.faleconosco .container label{
+  color: white;
+}
+
+.faleconosco p{
+  color: white;
+}
+
+.faleconosco h2{
+  color: white;
+}
+
+
+
+
+
+
+
+
+.termo{
+  background-color: black;
+}
+
+.termo h1{
+  text-align: center;
+  color: white;
+}
