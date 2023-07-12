@@ -7,6 +7,28 @@ nav ul li a:hover{
     /*color: blue!important;*/
 }
 
-.card-header{
+.card-header, footer{
     color: #FFF;
 }
+
+.bloco-oferecemos{
+    color: white;
+}
+
+.oferecemos i{
+    color: rgb(11, 152, 247);
+
+}
+
+.meu-buttom{
+    background-color: rgb(41, 41, 41)!important;
+    color: #FFF!important;
+}
+
+.collapsed{
+    background-color: white!important;
+    color: black !important;
+    
+}
+.accordion-button::after{
+   background-image: bi bi-caret-down;
