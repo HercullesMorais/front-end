@@ -32,3 +32,4 @@ nav ul li a:hover{
 }
 .accordion-button::after{
    background-image: bi bi-caret-down;
+}

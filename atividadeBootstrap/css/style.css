@@ -1,0 +1,52 @@
+
+
+.bg{
+    background-color: rgb(186, 223, 223);
+}
+
+.bg i{
+    font-size: 25px;
+  
+}
+
+.teste{
+    margin: 0 auto;
+    
+}
+
+.botao-direito{
+    float: right;
+}
+
+.mobile{
+    background-color: rgb(186, 223, 223);
+    margin-top: 150px;
+    height: 200px;
+}
+
+.iphone{
+    
+    position: absolute;
+    top: 370px;
+    
+}
+
+.app-baixar{
+    
+    align-items: center;
+}
+
+.testando{
+    
+    
+    
+}
+
+
+
+
+
+
+.mobile .texto-app{
+    padding-left: 200px;
+}
